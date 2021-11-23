@@ -1,0 +1,67 @@
+.container {
+    margin: 30px;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    }
+    .Abtme-pic, .rightside {
+    display: inline-block;
+    width:45%;
+    vertical-align: top;
+    font-size: 1.1em;
+    }
+    .rightside{
+        padding-left: 40px;
+    }
+    table{
+        margin: 30px;
+        width: 70%
+    }
+    hr{
+        height: 2px;
+        background-color: #2e4d52;
+        
+    }
+    .rightside h1{
+        color: #4a7e86;
+        text-align: center;
+        font-size: 3rem;
+    text-shadow: 2px 5px 5px #2e4d52;
+        animation: slideMe .7s ease-in;
+    }
+    .rightside p{
+        line-height: 1.5em;
+    }
+   
+    .first-column{
+        font-weight: bolder;
+        color: #2e4d52;
+      width: 40%;
+    }
+    .download-resume{
+        background-color: #2e4d52;
+        border-radius: 10px;
+        padding: 15px;
+        color: white;
+        margin-left: 150px;
+        animation: slideMe .7s ease-in;
+    }
+    .download-resume:hover{
+        color: #2e4d52;
+        background-color: #eda624 ;
+        cursor: pointer;
+    }
+    .Abtme-pic{
+        border-radius: 10px;
+        box-shadow: 10px 10px 8px #2e4d52;
+        margin-left: 15px;
+    }
+    
+    @keyframes slideMe{
+        0%{
+            transform: skewX(53deg) translateX(-200px);
+        }
+        100%{
+            transform: skew(0deg);
+        }
+    }
