@@ -52,9 +52,39 @@ body{
     margin: 0;
     padding: 0;
 }
+.skill{
+    text-align: center;
+}
+.skill-list ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 20px;
+    grid-gap: 15px;
+}
+.skill-list li{
+    border: rgb(223, 216, 216) solid 1px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 150px;
+    margin: 15px;
+}
+.skill-list li:hover{
+    cursor: pointer;
+    box-shadow: 0px 3px 20px 0px rgba(94, 88, 88, 0.29);
+    border: solid 1px tomato;
+    border-radius: 20px;
+    font-size: 30px;
+    color: tomato;
+}
 
 .main{
-    margin-left: 260px;
+    margin-left: 300px;
 }
 
 .my-experience{
