@@ -280,7 +280,7 @@ h1{
 }
 
 .container {
-    margin: 30px;
+    margin: 30px 30px 30px 300px;
     padding: 0;
     box-sizing: border-box;
     width: 100%;
