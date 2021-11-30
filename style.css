@@ -283,7 +283,7 @@ h1{
     margin:  0 30px 70px 300px;
     padding: 0;
     box-sizing: border-box;
-    width: 100%;
+    width: 80%;
     }
     .Abtme-pic, .rightside {
     display: inline-block;
@@ -320,16 +320,15 @@ h1{
       width: 40%;
     }
     .download-resume{
-        background-color: #2e4d52;
+       box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
         border-radius: 10px;
         padding: 15px;
-        color: white;
         margin-left: 150px;
         animation: slideMe .7s ease-in;
+        transition: transform 0.2s ease-in;
     }
     .download-resume:hover{
-        color: #2e4d52;
-        background-color: #eda624 ;
+        transform: translateY(-15px);
         cursor: pointer;
     }
     .Abtme-pic{
@@ -346,7 +345,6 @@ h1{
             transform: skew(0deg);
         }
     } 
-
 
 
 
