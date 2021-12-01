@@ -330,6 +330,58 @@ h1{
         margin-left: 15px;
     }
 
+    .clr {
+        clear: both;
+    }
+    
+    .sec {
+        margin-left: 300px;
+        padding: 50px 0;
+    }
+    
+    #skills {
+        display: flex;
+    }
+    .skills-box .language {
+        display: inline-block;
+        width: 44%;
+        padding: 20px;
+        margin: 10px;
+        border: solid 1px #eee;
+        box-sizing: border-box;       
+    }
+    
+    .language {
+        transition: 1s;   
+    }
+    
+    .language:hover {   
+        box-shadow: 0 0 3px 3px gray;
+        margin: 0;    
+    }
+    
+    span {
+        background-color: #ff4f00;
+        color: white;
+        border-radius: 50%;
+        margin-right: 20px;
+        padding: 15px 10px;
+    }
+    
+    /* Footer */
+    
+    footer {
+        color: white;
+        background-color: #ff4f00;
+        padding: 1px 16px;
+        text-align: center;
+        box-sizing: inherit;
+    }
+    
+    footer .fa {
+        margin: 0 5px;
+    }
+
     @keyframes slideMe{
         0%{
             transform: skewX(53deg) translateX(-200px);
