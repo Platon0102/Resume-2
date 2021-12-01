@@ -371,6 +371,7 @@ h1{
     /* Footer */
     
     footer {
+        margin-left: 300px;
         color: white;
         background-color: #ff4f00;
         padding: 1px 16px;
