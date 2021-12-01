@@ -205,42 +205,39 @@ background-color: transparent;
 
 .my-experience{
     text-align: center;
-
 }
 section{
     padding: 40px 0;
     display: block;
 }
-
 h1{
     margin: 20px 0;
     font-weight: bold;
     font-size: 2em;
     display: block;
 }
-
 .block{
+    transition: scale(3);
+    transition-timing-function: ease-out;
+    transition-duration: 5s;
     display: inline-block;
     margin: 15px;
     padding: 15px;
     width: 45%;
     box-sizing: border-box;
     text-align: left;
-    border: 1px solid rgb(19, 11, 92);
+    border: 1px solid rgb(112, 112, 112);
     transition-property: width;
     transition: width 3s,
 }
-
 .block h4{
     font-size: 1.2em;
     margin: 15px 0;  
 }
-
 .block p{
     font-size: 1.1em;
     margin: 15px 0;  
 }
-
 .block .head-part .time-work{
     position: relative;
     display: inline-block;
@@ -251,32 +248,27 @@ h1{
     transition: width 2s;
     transition-delay: 1s;
 }
-
-.time-work:hover{
-    width: 95%;
-}
-
 .head-part{
     position: relative;
     color: indigo; 
     font-size: 1.1em; 
 }
-
 .block .head-part .icon{
     position: absolute;
     top: 0;
     right: 20px;
     bottom: 5px;
     padding: 7px;
-    width: 35px;
+    width: 50px;
     background-color: rgb(233, 211, 14);;
     border-radius: 100px;
 }
-
+.block:hover .head-part .time-work{
+    width: 100%;
+}
 .block:hover {
-    width: 46%;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    box-shadow: 4px 4px 10px 3px rgb(0 0 0 / 20%);
 }
 
 .container {
