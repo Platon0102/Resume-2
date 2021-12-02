@@ -3,8 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-    
+    color: black;
     /* background-image: url("https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80"); */
 }
 /* body {
@@ -37,12 +36,13 @@ border-radius: 10px;
     padding-bottom: 4px;
 }
 
-navbar h1:hover {
+.navbar h1:hover {
 border: 1px solid transparent;
-box-shadow: 0 0 8px rgba(0, 0, 0, 0.40);
+box-shadow: 0 0 8px orange;
 cursor: pointer;
 padding: 7px 15px;
 border-radius: 20px;
+color: orange;
 }
 
 .marat {
@@ -69,6 +69,10 @@ margin: 0 50px;
     border-radius: 15px;
     padding: 10px;
     font-size: x-large;
+}
+
+.navbar ul li a{
+    text-decoration: none;
 }
 
 ul li:hover {
@@ -120,10 +124,11 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.30);
 
 .first-h1:hover {
 border: 1px solid transparent;
-box-shadow: 0 0 8px rgba(0, 0, 0, 0.40);
+box-shadow: 0 0 8px orange;
 cursor: pointer;
 padding: 7px 15px;
 border-radius: 20px;
+color: orange;
 }
 
 .Home h1 {
@@ -197,14 +202,15 @@ background-color: transparent;
     width: 250px;
     height: 150px;
     margin: 15px;
+    transition: ease-in 0.3s;
 }
 .skill-list li:hover{
     cursor: pointer;
     box-shadow: 0px 3px 20px 0px rgba(94, 88, 88, 0.29);
-    border: solid 1px tomato;
+    border: solid 1px orange;
     border-radius: 20px;
     font-size: 30px;
-    color: tomato;
+    color: orange;
 }
 
 .main{
@@ -225,9 +231,6 @@ h1{
     display: block;
 }
 .block{
-    transition: scale(3);
-    transition-timing-function: ease-out;
-    transition-duration: 5s;
     display: inline-block;
     margin: 15px;
     padding: 15px;
@@ -235,8 +238,7 @@ h1{
     box-sizing: border-box;
     text-align: left;
     border: 1px solid rgb(112, 112, 112);
-    transition-property: width;
-    transition: width 3s,
+
 }
 .block h4{
     font-size: 1.2em;
@@ -255,6 +257,11 @@ h1{
     transition-timing-function: ease;
     transition: width 2s;
     transition: 1s;
+    background-color: orange;
+    transition: all 2s;
+    color: white;
+    transition: all 0.5s;
+
 }
 .head-part{
     position: relative;
@@ -269,10 +276,11 @@ h1{
     padding: 7px;
     width: 50px;
     background-color: #ff4f00;
+    background-color: orange;
     border-radius: 100px;
 }
 .block:hover .head-part .time-work{
-    width: 100%;
+    width: 90%;
 }
 .block:hover {
     cursor: pointer;
@@ -305,9 +313,10 @@ h1{
     }
     .rightside h1{
         color: #0c272b;
+    color: #2e4d52;
         text-align: center;
         font-size: 3rem;
-    text-shadow: 2px 5px 5px #2e4d52;
+        text-shadow: 2px 5px 5px #2e4d52;
         animation: slideMe .7s ease-in;
     }
     .rightside p{
@@ -343,6 +352,7 @@ h1{
     }
     
     .sec {
+        margin-left: 350px;
         padding: 50px 0;
     }
     
@@ -359,7 +369,7 @@ h1{
     }
     
     .language {
-        transition: 1s;   
+        transition: 0.5s;   
     }
     
     .language:hover {   
@@ -367,8 +377,8 @@ h1{
         margin: 0;    
     }
     
-    span {
-        background-color: #ff4f00;
+    .language span {
+        background-color: orange;
         color: white;
         border-radius: 50%;
         margin-right: 20px;
@@ -528,7 +538,7 @@ align-items: top ;
     footer {
         margin-left: 300px;
         color: white;
-        background-color: #ff4f00;
+        background-color: orange;
         padding: 1px 16px;
         text-align: center;
         box-sizing: inherit;
