@@ -71,6 +71,10 @@ margin: 0 50px;
     font-size: x-large;
 }
 
+.navbar h1 {
+    transition: all .3s;;
+}
+
 .navbar ul li a{
     text-decoration: none;
 }
